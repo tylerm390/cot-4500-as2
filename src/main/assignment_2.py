@@ -15,6 +15,7 @@ def nevilles(x, xs, ys):
 
 Q = nevilles(3.7, [3.6, 3.8, 3.9], [1.675, 1.436, 1.318])
 print(Q[2][2])
+print()
 
 # PROBLEM 2 AND 3: NEWTON'S FORWARD DIFFERENCES
 def newtons(x, xs, ys):
@@ -38,8 +39,9 @@ def newtons(x, xs, ys):
 
 F, fx = newtons(7.3, [7.2, 7.4, 7.5, 7.6], [23.5492, 25.3913, 26.8224, 27.4589])
 print(F)
+print()
 print(fx)
-
+print()
 # PROBLEM 4: HERMITE INTERPOLATION
 def hermite(xs, ys, dys):
     n = len(xs)
@@ -72,6 +74,7 @@ def hermite(xs, ys, dys):
 Q = hermite([3.6, 3.8, 3.9], [1.675, 1.436, 1.318], [-1.195, -1.188, -1.182])
 
 print(Q)
+print()
 
 # PROBLEM 5: CUBIC SPLINES
 
@@ -111,8 +114,11 @@ def splines(xs, ys):
 
 A, b, x = splines([2, 5, 8, 10], [3, 5, 7, 9])
 print(A)
+print()
 print(b)
+print()
 print(x)
+print()
 
 
 
